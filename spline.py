@@ -29,7 +29,7 @@ def plot_spline(control_points, fig_name="spline"):
   plt.title('Spline Curve with ' + str(len(control_points)) + ' Control Points')
   plt.xlabel('x')
   plt.ylabel('y')
-  plt.savefig(fig_name+".svg")
+  plt.savefig(fig_name+".png")
   plt.show()
 
 
